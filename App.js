@@ -42,17 +42,18 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionTitle}>Crowded Bowl</Text>
               <Text style={styles.sectionDescription}>
-                Set a time you would like us to arrive at your pickup location
+                serves DIY vegetarian salad bowls. Pasta, potato salad and olive fried rice are some of the options availaible.
               </Text>
-              <Text style={styles.highlight}>RP Furniture Shop</Text>
+              <Text style={styles.highlight}>W4/W6 Lawn Canteen</Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionTitle}>Western Cuisine @ Koufu </Text>
               <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
+                sells one of the most delicious western food at very affordable prices. Their top selling item would be chicken and spagethetti.
               </Text>
+              <Text style={styles.highlight}>E1 Level 1, Koufu</Text>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debug</Text>
